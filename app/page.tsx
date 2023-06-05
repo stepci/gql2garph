@@ -37,7 +37,7 @@ export default function Home() {
             <h1 className="flex select-none font-medium text-base leading-5">
               <span>GraphQL</span>
               <span className="mx-1">⇢</span>
-              <Image height={40} width={50} alt="garph" src="/garph.svg" />
+              <Image height={20} width={50} alt="garph" src="/garph.svg" />
             </h1>
             <span className="select-none text-sm text-neutral-600">
               Easily migrate your GraphQL SDL to Garph
