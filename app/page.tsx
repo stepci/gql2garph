@@ -19,7 +19,7 @@ export default function Home() {
       const ast = parse(value)
       setTS(generateCode(ast, { generateTypes: true }))
       setErrorMessage('')
-    } catch (e) {
+    } catch (e: any) {
       setTS('')
       setErrorMessage(e.message)
     }
